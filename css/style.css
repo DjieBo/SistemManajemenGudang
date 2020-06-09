@@ -1,0 +1,179 @@
+body{margin:0;padding:0;}
+section{width:100%;height:100%;position:absolute;}
+.log-project{background:url(../img/accounting.jpg);background-size: cover;}
+.gatein-project{background:url(../img/warehouse.jpg);background-size: cover;}
+.main{width: 100%;float: left;background-image: url(../img/background.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;height: 100%;}
+.wrap-project{margin:100px auto;width: 40%;min-height:350px;background:rgba(0,0,0,0.6);z-index: 10;position: absolute;left: 30%;}
+.overflow{width: 100%;height:100%;position: absolute;background: rgba(212,212,255,0.5);z-index: 9}
+.form-gatein{width:50%;margin:80px auto;background:#f1f1f1;min-height: 450px;position: absolute;z-index: 10;left: 25%;}
+.title-project{width: 100%;float:left;}
+.title-project h2{text-align:center;color:#f1f1f1;margin:0;font-size:28pt;padding:10px;background:rgba(0,0,0,0.7);}
+.admin-project{width: 96%;float:left;padding:5px 10px;font-size:14pt;}
+.admin-col-project{width:30%;float:left;color:#333;}
+.logout-col-project{width:30%;float:right;text-align: right;color:#f1f1f1;}
+.logout-col-project img{width: 20px;float: right;margin: 3px;}
+.logout-col-project a{color: #333;text-decoration: none;transition:color 0.2s;}
+.logout-col-project a:hover{color:#0085C7;}
+.form-project{width: 89%;float:left;padding:10px 30px;}
+.form-img{width: 45%;float:right;}
+.form-img img{width: 85%;margin: 20px;}
+.form-project form{width: 50%;float: left;}
+.frm-log{padding-top: 30px;}
+.form-project label{font-size: 14pt;margin:5px 0;}
+.form-project input[type=text], .form-project select, .form-project input[type=password], .form-project textarea{padding:5px;border-radius: 5px;border:1px solid #999;}
+.form-project input[type=text], .form-project input[type=password], .form-project textarea{width: 95%}
+.form-project select {width: 100%}
+.default-log label{color:#f1f1f1;}
+.qty{width:10%;}
+.form-project input[type=submit]{padding:10px 20px;border-radius: 5px;border: 1px solid #fff;font-size:13pt;text-align: center;background:#335CFF;color:#f0f0f0;cursor: pointer;transition: box-shadow 0.3s}
+.form-project input[type=submit]:hover{box-shadow: 1px 2px 5px #666}
+.attent-scc{width: 40%;min-height: 40px;background:#AEDC24;margin:50px auto;color: #333;float: right;border-radius: 10px;position: relative;}
+.attent-scc h3{margin:0;text-align: center;padding: 10px 0;}
+.check-dv{width: 15%;position: absolute;top: -10px;left: -10px;}
+.check-dv img{width: 100%}
+/*========================================================================*/
+.admin-panel{width: 100%;float:left;background: #ddd}
+.form-pass, .form-admin{margin:150px auto;background:#f1f1f1;padding:20px;border-radius: 10px;box-shadow: 1px 3px 4px #333}
+.form-pass{width:20%;}
+.form-admin {width: 40%}
+.form-pass input[type=password]{width:80%;border:1px solid #ddd;padding:7px;border-radius: 5px}
+.form-pass input[type=submit], .form-admin input[type=submit]{padding:10px 20px;border-radius: 5px;border: 1px solid #fff;font-size:13pt;text-align: center;background:#335CFF;color:#f0f0f0;cursor: pointer;transition: box-shadow 0.3s}
+.form-pass input[type=submit]:hover{box-shadow: 1px 2px 5px #666}
+.form-admin input[type=text], .form-admin select{width:90%;border:1px solid #ddd;padding:7px;border-radius: 5px}
+.form-admin input[type=submit]:hover{box-shadow: 1px 2px 5px #666}
+/*================================ Gate Out =====================================*/
+.gateout-project{width:100%;min-height: 700px;background: #ddd}
+header{width:100%;min-height: 50px;background:#335CFF;}
+.right-panel{width: 15%;float: right;margin-right:10px;font-size: 14pt;font-weight:bold;text-align:center;padding:13px 0;}
+.right-panel a{color:#f1f1f1;text-decoration: none}
+.left-panel{width: 15%;float: left;margin-right:10px;font-size: 20pt;color:#f1f1f1;font-weight:bold;text-align:center;padding:15px 0;background:#0C32CC;}
+.row-form{width:1124px;margin:0 auto;position: relative;padding:20px;}
+.form-gateout{width: 60%;float:left;min-height: 450px;}
+.title-project-out h2, .view-message h2{text-align: center;color: #333;margin: 0;font-size: 28pt;padding: 10px;text-decoration:underline;}
+.view-message{width:35%;float:right;}
+.title-view{width: 100%;float: left;margin-top:20px;background:#335CFF;padding:15px 0;text-align: center;color: #f1f1f1;font-size: 16pt}
+.list-view{width: 100%;float: left;background: #fff;height:400px;overflow-y: hidden;}
+.list-view li{width: 100%;float: left;border-bottom:1px solid #ddd;list-style: none;}
+.id-view{width: 97%;float: left;padding: 0 5px;text-align: left;}
+.number{width:5%;float:left;border-right: 1px solid #ddd;padding:10px 5px;}
+.id-view-test{width: 89%;float: left;cursor: pointer;padding:10px 5px;}
+.id-view-test a{color:#333;text-decoration:none;}
+.img-symbol{width: 5%;float: right;margin-right: 10px}
+.img-symbol img{width: 100%}
+.qty-view{width: 10%;float: left;text-align: center;}
+.date-view{width: 50%;float: left;text-align: center;}
+.check-view{width:5%;float: left;text-align: right;}
+.out-form label{color:#333;}
+.overso{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: rgba(0,0,0,0.7)}
+.out-modal{width: 50%;padding-bottom:30px;position:relative;float: left;margin-left: 25%;margin-top: 20px;background: #f1f1f1;border-radius: 10px;min-height: 100px;box-shadow: 1px 3px 5px #1a1a1a}
+.col-code{width: 100%;float: left;}
+.col-code h3{text-align: center;margin:10px 0;}
+.sub-col-code{width: 46%;padding: 10px 5px;float: left;}
+.sub-col-code p{margin: 0}
+.sub-col-code input[type=text]{width:90%;border:1px solid #ddd;padding:7px;border-radius: 5px}
+.close-btn{padding:5px;width:20px;border:none;text-align:center;border-radius: 20px;background:#f00;position: absolute;top:10px;right: 24%;z-index: 99}
+.close-btn a{color: #fff;text-decoration: none;}
+.print{float:right;margin-top:10px;padding:5px 10px;border-radius: 5px;border: 1px solid #fff;font-size:11pt;text-align: center;background:#335CFF;color:#f0f0f0;cursor: pointer;transition: box-shadow 0.3s}
+.print:hover{box-shadow: 1px 2px 5px #666}
+/*====================================== Inqueri Sales =======================================*/
+header{width:100%;min-height: 50px;margin:0;background: #335CFF}
+.head-left{width:15%;min-height: 50px;float:left;background:#0C32CC;}
+.head-left span{font-size:20pt;color:#f1f1f1;float:left;width:100%;text-align: center;padding: 10px 0}
+.head-right{width: 10%;text-align:center;float:right;margin-right:20px;color:#f1f1f1;padding:10px;}
+.head-right input[type=submit]{padding:2px 20px;font-size:11pt;border:none;font-weight:bold;background:transparent;color:#f0f0f0;cursor: pointer;transition: color 0.3s}
+.head-right input[type=submit]:hover{color:#333}
+.management-project{padding:0;margin:0;position: relative;min-height: 850px;background: #ddd}
+.mag-left{width:15%;min-height:850px;float:left;background: #1a1a1a}
+.mag-right{width:80%;padding:20px;margin-top:20px;float:right;background:#f1f1f1;border-radius: 20px 0 0 0}
+.mag-left ul{width:80%;padding: 0;margin:100px 0;float: right;min-height: 100px}
+.mag-left ul li{width: 90%;float: left;margin:5px 0;list-style: none;color: #f1f1f1;font-size: 14pt}
+.mag-left ul li img{width: 10%;float: left;padding: 5px;}
+.mag-left ul li a{color: #f1f1f1;text-decoration: none;transition: color 0.3s}
+.mag-left ul li a:hover{color:#F75454;}
+.mag-right h2{padding:5px 0;text-align:center;text-decoration: underline;}
+.form-search{width:100%;float: left;}
+.form-search label{font-size: 14pt;font-weight:bold;color:#333;}
+.form-search input[type=text]{width:50%;border:1px solid #ddd;padding:10px;font-size: 14pt;border-radius:5px;}
+.form-view{width: 100%;float: left;margin-top:150px;border-top: 1px solid #ddd;padding-top:30px;}
+.form-view ul{width: 100%;margin:0;padding:0;float:left;}
+.form-view ul .list{list-style: none;float: left;padding:10px 20px;text-align: center;}
+.form-view ul .down-list{list-style: none;float: left;text-align: center;}
+.head-list{padding-top:30px;}
+.id-brg{width: 20%;border-right: 1px solid #ddd;background: #335CFF;color: #f1f1f1;}
+.desc-brg{width: 50%;border-right: 1px solid #ddd;background: #335CFF;color: #f1f1f1;}
+.qty-brg{width:18.5%;background: #335CFF;color: #f1f1f1;}
+.sub-id-brg{width: 20%;float:left;min-height:37px;padding:0 20px;border-right: 1px solid #ddd;color: #333;}
+.sub-desc-brg{width: 50%;float:left;min-height:37px;padding:0 20px;border-right: 1px solid #ddd;color: #333;}
+.sub-qty-brg{width:18.5%;float:left;min-height:37px;padding:0 20px;color: #333;}
+.sub-list{width:24.8%;float: left;text-align:center;color:#333;padding: 10px 0;}
+.list-produk{padding-top:0;}
+.list-produk{list-style: none;border-bottom: 1px solid #ddd}
+.list-id-brg{width: 20%;border-right: 1px solid #ddd;color:#333;}
+.list-desc-brg{width: 50%;border-right: 1px solid #ddd;color:#333;}
+.list-qty-brg{width:18.5%;color:#333;}
+.form-search ul{width: 50%;background: #fff;position: absolute;z-index: 99;top: -32px;padding: 5px 10px;box-shadow: 0px 5px 7px #999;font-size: 13pt;}
+.form-search ul li{background: #fff;text-transform: uppercase;z-index: 9;list-style: none;width: 100%;float: left;padding: 5px;font-size: 11pt;border-bottom: 1px solid #ddd;cursor: pointer;transition: background-color 0.3s;}
+#listProduk{position: relative;}
+.form-search ul a{font-size: 14pt;text-align: left;text-decoration: none;color: #333;transition: color 0.3s}
+.form-search ul a:hover{color:#335CFF;}
+/*========================================================================================*/
+.order, .full-side{width: 100%;float: left;}
+.half-side{width:44%;float: left;margin:0 10px;padding:0 10px;}
+.order label{font-size:12pt;font-weight: bold}
+.order input[type=text], .order select, .order textarea, .order select{width:100%;border:1px solid #ddd;padding:7px;font-size: 12pt;border-radius:5px;}
+.order textarea{font-family: 'Blue Highway'}
+.order input[type=submit]{padding:10px 20px;border-radius: 5px;border: 1px solid #fff;font-size:13pt;text-align: center;background:#335CFF;color:#f0f0f0;cursor: pointer;transition: box-shadow 0.3s}
+.order input[type=submit]:hover{box-shadow: 1px 2px 5px #666}
+.spe-row{width:100%;float: left;}
+.spe-row li{width:40%;float: left;margin: 0 10px;padding:0 10px;list-style: none;margin-top:4%;}
+.spe-row li input[type=text]{width:100%;border:1px solid #ddd;padding:7px;font-size: 14pt;border-radius:5px;}
+.bt-add{float: right;margin:20px 0;padding: 0 7px;background:#ddd;color:#333;border:1px solid #666;cursor: pointer;font-family: arial}
+.att{width:100%;height:100%;position: absolute;top:0;left: 0;background: rgba(0,0,0,0.7);z-index: 5}
+.message{width: 30%;margin: 150px auto;background:#f1f1f1;}
+.img-message{width:70%;float:left;}
+.img-message img{width:100%;}
+.text-message{width:25%;float: right;padding-right: 10px}
+.text-message h2{font-size: 32pt;color:#f1f1f1;text-decoration: none}
+#attscc, #attfail{display: none}
+.img-fail-message{width:100%;float:left;}
+.alert-cek{margin-left:20px;}
+.img-cek-code, .img-cek-qty{width: 5%;float: left;}
+.img-cek-qty img, .img-cek-code img{width: 100%;padding: 35px 0;}
+.img-cek-qty{margin-left:10px;}
+.col-code li{width: 50%;float: left;list-style: none;min-height: 90px;}
+.alettrt{display: none}
+.row-code{width:100%;float: left;}
+.col-code-title{width: 50%;float:left;text-align: center;}
+form.form-chek{padding:20px;min-height: 300px;}
+form.form-chek input[type=submit]{float:right;padding: 10px 20px;border-radius: 5px;border: 1px solid #fff;font-size: 13pt;text-align: center;background: #335CFF;color: #f0f0f0;cursor: pointer;transition: box-shadow 0.3s;}
+/*=========================================== Report ===============================================*/
+.form-report{width: 100%;padding:10px}
+.row-up{width: 100%;float:left;}
+.download{border-top:1px solid #ddd;}
+.download li{width: 33%;float: left;list-style: none;}
+.download h3{text-align: center;}
+.set-down{text-align: center}
+.set-down label{text-decoration: underline;}
+.col-date{width: 43%;float: left;margin: 3px;}
+.col-date input[type=date]{width: 100%;border:1px solid #ddd;border-radius:5px;}
+.col-date label{font-size: 10pt;text-align: center;}
+.download-tbn{margin-top:20px;padding:5px 10px;border-radius: 5px;border: 1px solid #fff;font-size:10pt;text-align: center;background:#335CFF;color:#f0f0f0;cursor: pointer;transition: box-shadow 0.3s}
+.download-tbn:hover{box-shadow: 1px 2px 5px #666}
+.row-out-report{width:100%;float: left;margin-top:5px;}
+.row-out-report label{width:40%;float: left;font-size: 10pt}
+.row-out-report select{width:50%;float: left;padding: 5px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
